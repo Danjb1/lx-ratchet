@@ -1,0 +1,25 @@
+[General]
+Type = PRJ_IMAGE
+Image = invisible.png
+Gravity = 0
+Timer = 0.02
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+UseAngle = True
+Angle = 180
+Speed = 250
+Spread = 0
+Projectile = Seeker Gun Final Shot.txt

@@ -1,0 +1,17 @@
+[General]
+Drain=6
+LaserSight=false
+Name=Chopper
+ROF=380
+Recharge=8
+Recoil=0
+Sound=throw.wav
+
+[Projectile]
+Amount=1
+Angle=0
+Projectile = Chopper Shot.txt
+Speed=180
+SpeedVar=50
+Spread=3
+Useangle=false

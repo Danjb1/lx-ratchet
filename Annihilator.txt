@@ -1,0 +1,17 @@
+[General]
+Drain = 18
+LaserSight = false
+Name = Annihilator
+ROF = 800
+Recharge = 4
+Recoil = 12
+Sound = bazooka.wav
+
+[Projectile]
+Amount = 1
+Angle = 0
+Projectile = Annihilator Rocket.txt
+Speed = 180
+SpeedVar = 0
+Spread = 1
+Useangle = false

@@ -1,0 +1,21 @@
+[General]
+Type = PRJ_IMAGE
+AnimRate = 10
+AnimType = ANI_LOOP
+Animating = true
+Gravity = 5
+Dampening = 0.95
+Image = exterminator.png
+Timer = 3
+
+[Hit]
+Type = Bounce
+BounceCoEff = 0.05
+
+[PlayerHit]
+Type = Injure
+Damage = 1
+
+[Time]
+Type = Explode
+Damage = -1

@@ -1,0 +1,16 @@
+[General]
+Name = Suck Cannon (Suck)
+Drain = 0
+ROF = 30
+Recharge = 0
+Recoil = 0
+Sound = suck.wav
+
+[Projectile]
+Amount = 3
+Angle = 0
+Projectile = Suck Cannon (Suck) Vortex.txt
+Speed = 120
+SpeedVar = 10
+Spread = 2
+Useangle = true

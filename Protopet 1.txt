@@ -1,0 +1,29 @@
+[General]
+Type = PRJ_IMAGE
+AnimRate=3
+AnimType = ANI_LOOP
+Animating=true
+Gravity=100
+Image=protopet1.png
+Timer=6
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Bounce
+BounceCoeff=1
+
+[PlayerHit]
+Type = Injure
+Damage = 21
+
+[Time]
+Type = Explode
+Damage=-1
+
+[ProjectileTrail]
+Amount=1
+Delay=3200
+Projectile = Protopet 2.txt
+Speed=70
+SpeedVar=30
+Spread=360

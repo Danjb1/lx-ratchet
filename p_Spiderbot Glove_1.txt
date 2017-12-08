@@ -1,0 +1,20 @@
+[General]
+Type = PRJ_IMAGE
+AnimRate=10
+AnimType=ANI_LOOP
+Animating=true
+Gravity=100
+Image=spider.png
+Timer=4
+
+[Hit]
+Type = Bounce
+BounceCoeff=1
+
+[PlayerHit]
+Type = Injure
+Damage = 21
+
+[Time]
+Type = Explode
+Damage = 3

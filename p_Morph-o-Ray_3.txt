@@ -1,0 +1,21 @@
+[General]
+Type = PRJ_IMAGE
+AnimRate = 2
+AnimType = ANI_LOOP
+Animating = true
+Gravity = 200
+Image = chicken.png
+Timer = 10
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.4
+
+[PlayerHit]
+Type = Injure
+Damage = 21
+
+[Time]
+Type = Explode
+Damage = 6
+Shake = 1

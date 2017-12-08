@@ -1,0 +1,28 @@
+[General]
+Typ  = PRJ_IMAGE
+Gravity = 0
+Image = nothing.png
+Timer = 4
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Explode
+Damage = 6
+Shake = 2
+
+[PlayerHit]
+Type = Injure
+Damage = 11
+
+[Time]
+Type = Explode
+Damage = 6
+
+[ProjectileTrail]
+Amount = 1
+Delay = 100
+Projectile = p_Gravity Bomb_3.txt
+Speed = 0
+SpeedVar = 0
+Spread = 360
+UseProjVelocity = false

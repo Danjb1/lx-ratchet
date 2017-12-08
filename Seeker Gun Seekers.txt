@@ -1,0 +1,26 @@
+[General]
+Type = PRJ_IMAGE
+Image = invisible.png
+Gravity = 0
+Timer = 0.05
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Time]
+Type = Explode
+Damage = -1
+
+[Projectile]
+Amount = 1
+UseAngle = True
+Angle = 180
+Speed = 1000
+Spread = 0
+Projectile = Seeker Gun Returners.txt

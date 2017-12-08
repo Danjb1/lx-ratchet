@@ -1,0 +1,23 @@
+# Particle that instantly forms greenball and lets out a dummy particle
+
+[General]
+Type = PRJ_IMAGE
+Gravity = 0
+Image = Nothing.png
+Timer = 0.05
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Bounce
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = GreenDirt
+
+[ProjectileTrail]
+Delay = 9999
+Amount = 1
+Speed = 0
+Projectile = Dynamo Dummy.txt

@@ -1,0 +1,16 @@
+# Drone Shot
+
+[General]
+Type = PRJ_PIXEL
+Colour1=20,20,170
+Gravity=0
+
+[Hit]
+Type = Explode
+Damage = 3
+Shake = 1
+Sound=explodesmall.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 11

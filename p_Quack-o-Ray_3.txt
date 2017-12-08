@@ -1,0 +1,30 @@
+[General]
+Type = PRJ_IMAGE
+AnimRate=10
+AnimType=ANI_LOOP
+Animating=true
+Gravity=0
+Image=duck.png
+Timer=10
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Bounce
+BounceCoeff=1
+
+[PlayerHit]
+Type = Injure
+Damage = 11
+
+[Time]
+Type = Explode
+Damage = 6
+Shake = 1
+
+[ProjectileTrail]
+Amount=1
+Delay=1600
+Projectile=p_Quack-o-Ray_4.txt
+Speed=0
+SpeedVar=5
+Spread=360

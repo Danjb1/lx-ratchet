@@ -1,0 +1,30 @@
+[General]
+Type  =  PRJ_IMAGE
+Gravity = 0
+Image = wrench.png
+RotIncrement = 90
+RotSpeed = 500
+Rotating = true
+Timer = 0.8
+
+[Hit]
+Type = Explode
+Damage = 3
+Projectiles = True
+Shake = 2
+Sound = bolts.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 40
+
+[Time]
+Type = Explode
+Damage = -1
+
+[Projectile]
+Amount = 8
+Speed = 150
+SpeedVar = 50
+Spread = 360
+Projectile = Wrench Sparks.txt

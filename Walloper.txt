@@ -1,0 +1,13 @@
+[General]
+Name = Walloper
+Drain = 21
+ROF = 350
+Recharge = 5
+Recoil = -100
+Sound = wallop.wav
+
+[Projectile]
+Amount = 1
+Projectile = Walloper Shot.txt
+Speed = 240
+Spread = 1

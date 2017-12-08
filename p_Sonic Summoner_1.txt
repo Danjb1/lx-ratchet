@@ -1,0 +1,28 @@
+[General]
+Type = PRJ_IMAGE
+AngleImages = 0
+AnimRate = 5
+AnimType = true
+Animating = true
+Dampening = 0.9
+Gravity = 0
+Image = sandmouse.png
+Timer = 3
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.50
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 3
+
+[ProjectileTrail]
+Amount = 1
+Delay = 100
+Projectile = p_Sonic Summoner_2.txt
+Speed = 0

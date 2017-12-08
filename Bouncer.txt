@@ -1,0 +1,17 @@
+[General]
+Drain = 51
+LaserSight = false
+Name = Bouncer
+ROF = 2000
+Recharge = 3
+Recoil = 5
+Sound = throw.wav
+
+[Projectile]
+Amount = 1
+Angle = 0
+Projectile = Bouncer Shot.txt
+Speed = 65
+SpeedVar = 10
+Spread = 3
+Useangle = false

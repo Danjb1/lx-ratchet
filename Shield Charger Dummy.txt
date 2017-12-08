@@ -1,0 +1,21 @@
+[General]
+Type = PRJ_IMAGE
+Gravity = 0
+Image = nothing.png
+Timer = 0.001
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 0
+Projectile = Shield Charger Dummy 2.txt

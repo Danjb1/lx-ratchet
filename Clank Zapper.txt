@@ -1,0 +1,18 @@
+# Recoil forwards and leave behind the zapper
+
+[General]
+Drain = 21
+LaserSight = false
+Name = Clank Zapper
+ROF = 1000
+Recharge = 4
+Recoil = -130
+
+[Projectile]
+Amount = 1
+Angle = 0
+Projectile = Clank Zapper Dummy.txt
+Speed = 200
+SpeedVar = 0
+Spread = 0
+Useangle = true

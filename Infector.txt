@@ -1,0 +1,16 @@
+[General]
+Drain=16
+LaserSight=false
+Name=Infector
+ROF=1700
+Recharge=5
+Recoil=2
+Sound=infector.wav
+[Projectile]
+Amount=1
+Angle=0
+Projectile=p_Infector_1.txt
+Speed=230
+SpeedVar=0
+Spread=0
+Useangle=false

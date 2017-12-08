@@ -1,0 +1,24 @@
+[General]
+Type = PRJ_IMAGE
+Gravity=100
+Image=egg.png
+Timer=1
+
+[Hit]
+Type = Bounce
+BounceCoeff=1
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage=5
+Projectiles = True
+
+[Projectile]
+Amount=1
+Projectile=p_Morph-o-Ray_3.txt
+Speed=150
+SpeedVar=20
+Spread=360

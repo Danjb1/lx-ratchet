@@ -1,0 +1,32 @@
+[General]
+Type = PRJ_IMAGE
+Animating = True
+AnimRate = 4
+AnimType = ANI_LOOP
+Gravity=0
+Image=agentsofdoom.png
+RotIncrement=0
+RotSpeed=0
+Rotating=false
+Timer=5
+TimerVar=0
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.9
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 6
+
+[ProjectileTrail]
+Amount=1
+Delay=200
+Speed=200
+SpeedVar=70
+Spread=360
+Projectile = Agents of Doom Shot.txt

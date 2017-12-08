@@ -1,0 +1,16 @@
+[General]
+Drain = 1
+Name = N60 Storm
+ROF = 80
+Recharge = 4
+Recoil = 2
+Sound = blaster.wav
+
+[Projectile]
+Amount = 1
+Angle = 0
+Projectile = p_N60 Storm_1.txt
+Speed = 180
+SpeedVar = 0
+Spread = 1
+Useangle = false

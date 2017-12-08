@@ -1,0 +1,17 @@
+[General]
+Drain=34
+LaserSight=false
+Name=Devastator
+ROF=1300
+Recharge=2
+Recoil=18
+Sound=bazooka.wav
+
+[Projectile]
+Amount=1
+Angle=0
+Projectile=p_Devastator_1.txt
+Speed=100
+SpeedVar=0
+Spread=3
+Useangle=false

@@ -1,0 +1,16 @@
+[General]
+Drain = 3
+Name = Lancer
+ROF = 130
+Recharge = 5
+Recoil = 2
+Sound = blaster.wav
+
+[Projectile]
+Amount = 1
+Angle = 0
+Projectile = p_Lancer_1.txt
+Speed = 200
+SpeedVar = 0
+Spread = 1
+Useangle = false

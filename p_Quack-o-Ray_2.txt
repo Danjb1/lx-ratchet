@@ -1,0 +1,23 @@
+[General]
+Type = PRJ_IMAGE
+Gravity=-100
+Image=egg.png
+Timer=0.4
+
+[Hit]
+Type = Bounce
+BounceCoeff=1
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage=2
+Projectiles = True
+
+[Projectile]
+Amount=1
+Projectile=p_Quack-o-Ray_3.txt
+Speed=0
+Spread=360

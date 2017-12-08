@@ -1,0 +1,31 @@
+[General]
+Type = PRJ_IMAGE
+UseAngle = true
+AngleImages = 18
+Dampening = 1.05
+Gravity = 0
+Image = seeker.png
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[PlayerHit]
+Type = Injure
+Damage = 21
+
+[Projectile]
+Amount = 8
+Speed = 150
+SpeedVar = 50
+Spread = 360
+Projectile = Seeker Gun Sparks.txt
+
+[ProjectileTrail]
+Amount=1
+Delay = 1
+Speed=1
+Spread=0
+Projectile = Seeker Gun Sparks.txt

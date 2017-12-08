@@ -1,0 +1,31 @@
+[General]
+Type = PRJ_IMAGE
+AngleImages = 0
+AnimRate = 3
+AnimType = ANI_LOOP
+Animating = true
+Gravity = 0
+Image = synthenoid.png
+Timer = 6
+TimerVar = 2
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 3
+
+[ProjectileTrail]
+Amount = 1
+Delay = 600
+Projectile = p_Synthenoid_3.txt
+Speed = 190
+SpeedVar = 100
+Spread = 180
+UseProjVelocity = false

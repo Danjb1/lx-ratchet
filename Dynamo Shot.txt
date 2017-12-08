@@ -1,0 +1,29 @@
+# Green pixel that turns into greenball
+
+[General]
+Type = PRJ_PIXEL
+Colour1 = 94,213,43
+Gravity = 0
+Timer = 0.2
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 0
+Projectile = Dynamo Greenball.txt
+
+[ProjectileTrail]
+Amount = 1
+Delay = 10
+Speed = 0
+Projectile = Dynamo Trail.txt

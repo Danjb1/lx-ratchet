@@ -1,0 +1,21 @@
+[General]
+Type = PRJ_IMAGE
+AnimRate = 5
+AnimType = ANI_LOOP
+Animating = true
+Gravity = 200
+Image = nanotech.png
+Timer = 10
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.5
+BounceExplode = 0
+
+[PlayerHit]
+Type = Injure
+Damage = -40
+
+[Time]
+Type = Explode
+Damage = 1

@@ -1,0 +1,72 @@
+[General]
+ModName = Ratchet & Clank v1.1
+
+[NinjaRope]
+RestLength = 27
+RopeLength = 300
+Strength = 4.5
+
+[Weapons]
+NumWeapons = 53
+Weapon1 = Blitz Gun.txt
+Weapon2 = Bolts.txt
+Weapon3 = Bomb Glove.txt
+Weapon4 = Bouncer.txt
+Weapon5 = Chopper.txt
+Weapon6 = Clank Zapper.txt
+Weapon7 = Devastator.txt
+Weapon8 = Disc Blade Gun.txt
+Weapon9 = Drone Device.txt
+Weapon10 = Dynamo.txt
+Weapon11 = Exterminator.txt
+Weapon12 = Flux Rifle.txt
+Weapon13 = Glove of Doom.txt
+Weapon14 = Gravity Bomb.txt
+Weapon15 = Infector.txt
+Weapon16 = Lancer.txt
+Weapon17 = Lava Gun.txt
+Weapon18 = Mine Glove.txt
+Weapon19 = Minirocket Tube.txt
+Weapon20 = Miniturret.txt
+Weapon21 = Morph-o-Ray.txt
+Weapon22 = N60 Storm.txt
+Weapon23 = Nanotech.txt
+Weapon24 = Nitro Launcher.txt
+Weapon25 = Plasma Coil.txt
+Weapon26 = Plasma Whip (Swipe).txt
+Weapon27 = Plasma Whip (Throw).txt
+Weapon28 = Protopet.txt
+Weapon29 = Pulse Rifle.txt
+Weapon30 = Pyrociter.txt
+Weapon31 = Quack-o-Ray.txt
+Weapon32 = Qwark's Ray Gun.txt
+Weapon33 = RYNO.txt
+Weapon34 = RYNO 2.txt
+Weapon35 = RY3NO.txt
+Weapon36 = Seeker Gun.txt
+Weapon37 = Sheepinator.txt
+Weapon38 = Shield Charger.txt
+Weapon39 = Shock Blaster.txt
+Weapon40 = Sonic Summoner.txt
+Weapon41 = Spiderbot Glove.txt
+Weapon42 = Spitting Hydra.txt
+Weapon43 = Suck Cannon (Spit).txt
+Weapon44 = Suck Cannon (Suck).txt
+Weapon45 = Synthenoid.txt
+Weapon46 = Tesla Claw.txt
+Weapon47 = Walloper.txt
+Weapon48 = Wrench (Hack).txt
+Weapon49 = Wrench (Throw).txt
+Weapon50 = Agents of Doom.txt
+Weapon51 = Annihilator.txt
+Weapon52 = Banana Gun.txt
+Weapon53 = Blaster.txt
+
+[Worm]
+AirFriction = 0
+AirSpeed = 4
+AngleSpeed = 150
+Gravity = 100
+GroundFriction = 0.4
+GroundSpeed = 8
+JumpForce = -65

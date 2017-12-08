@@ -1,0 +1,29 @@
+[General]
+Type = PRJ_IMAGE
+Image = infector.png
+RotIncrement = 90
+RotSpeed = 600
+Rotating = true
+Gravity = 0
+Timer = 8
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.4
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 5
+
+[ProjectileTrail]
+Amount = 4
+Delay = 200
+Projectile = p_Infector_3.txt
+Speed = 100
+SpeedVar = 30
+Spread = 360
+UseProjVelocity = false

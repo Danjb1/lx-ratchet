@@ -1,0 +1,27 @@
+# Drones - firing
+
+[General]
+Type  =  PRJ_IMAGE
+Gravity = 0
+Image = drone.png
+Timer = 2
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0
+
+[Time]
+Type = Explode
+Damage = 3
+
+[PlayerHit]
+Type = Nothing
+
+[ProjectileTrail]
+Amount = 1
+Delay = 200
+Projectile = p_Drone Device_3.txt
+Speed = 180
+SpeedVar = 40
+Spread = 360

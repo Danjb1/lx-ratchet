@@ -1,0 +1,22 @@
+[General]
+Type = PRJ_IMAGE
+AngleImages=0
+AnimRate=0
+AnimType=true
+Animating=false
+Gravity=100
+Image=banana.png
+RotIncrement=90
+RotSpeed=500
+Rotating=true
+
+[Hit]
+Type = Explode
+Damage = 10
+Shake = 1
+Sound=bananasplat.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 21
+Sound=bananasplat.wav

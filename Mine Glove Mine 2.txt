@@ -1,0 +1,29 @@
+[General]
+Type = PRJ_IMAGE
+AnimRate = 2
+AnimType = ANI_LOOP
+Animating = true
+Image = mine3.png
+Timer = 2
+Gravity = 0
+Dampening = 0.95
+
+[Hit]
+Type = Bounce
+BounceCoEff = 1
+
+[PlayerHit]
+Type = Injure
+Damage = 21
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 200
+SpeedVar = 30
+Spread = 360
+Projectile = Mine Glove Mine 3.txt

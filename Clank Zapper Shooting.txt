@@ -1,0 +1,27 @@
+# Zapper - fires p_Clank Zapper_3
+
+[General]
+Type = PRJ_IMAGE
+Gravity = 0
+Image = clank.png
+Timer = 0.5
+
+[Hit]
+Type = Bounce
+BounceCoEff = 1
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 2
+Projectiles = True
+
+[Projectile]
+Amount = 30
+Angle = 180
+UseAngle = True
+Projectile = Clank Zapper Shot.txt
+Speed = 220
+SpeedVar = 80

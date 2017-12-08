@@ -1,0 +1,30 @@
+[General]
+Type = PRJ_IMAGE
+Gravity=30
+Image=chopper.png
+RotIncrement=90
+RotSpeed=1000
+Rotating=true
+Timer=3
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Bounce
+BounceCoeff=1
+BounceExplode=0
+
+[PlayerHit]
+Type = Injure
+Damage = 11
+
+[Time]
+Type = Explode
+Damage = 1
+
+[ProjectileTrail]
+Amount=1
+Delay=50
+Projectile = Chopper Trail.txt
+Speed=0
+SpeedVar=0
+Spread=360

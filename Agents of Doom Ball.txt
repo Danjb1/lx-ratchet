@@ -1,0 +1,29 @@
+[General]
+Type = PRJ_IMAGE
+Gravity = 0
+Image = miniturretcreate.png
+Timer = 0.7
+TimerVar = 0
+
+[Hit]
+Type = Bounce
+BounceCoEff = 0.7
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 5
+#Angle = 0	Robots go side to side (without UseAngle)
+#Angle = -90	Robots go up and down (without UseAngle)
+Angle = 90
+UseAngle = True
+Speed = 60
+SpeedVar = 30
+Spread = 0
+Projectile = Agents of Doom Robot.txt

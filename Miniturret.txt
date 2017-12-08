@@ -1,0 +1,16 @@
+[General]
+Drain=101
+LaserSight=false
+Name=Miniturret
+ROF=800
+Recharge=1
+Recoil=0
+Sound=throw.wav
+[Projectile]
+Amount=1
+Angle=0
+Projectile=p_Miniturret_1.txt
+Speed=130
+SpeedVar=70
+Spread=20
+Useangle=true

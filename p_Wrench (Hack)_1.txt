@@ -1,0 +1,31 @@
+[General]
+Type  =  PRJ_IMAGE
+AngleImages = 10
+Gravity = 0
+Image = wrench2.png
+Timer = 0.1
+UseAngle = true
+
+[Hit]
+Type = Explode
+Damage = -1
+Projectiles = True
+Shake = 2
+Sound = bolts.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 40
+
+[Time]
+Type = Explode
+Damage = -1
+
+[Projectile]
+Amount = 8
+Angle = 0
+Projectile = Wrench Sparks.txt
+Speed = 150
+SpeedVar = 50
+Spread = 360
+Useangle = false

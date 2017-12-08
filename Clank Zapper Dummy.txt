@@ -1,0 +1,29 @@
+# Dummy zapper - short delay before shooting
+
+[General]
+Type = PRJ_IMAGE
+Gravity = 0
+Image = nothing.png
+Timer = 0.001
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0
+BounceExplode = 0
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Projectile = Clank Zapper Shooting.txt
+Amount = 1
+Angle = 0
+Speed = 1
+SpeedVar = 0
+Spread = 0
+Useangle = true

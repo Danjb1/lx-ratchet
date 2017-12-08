@@ -1,0 +1,18 @@
+[General]
+Type = PRJ_IMAGE
+Gravity=100
+Image=egg.png
+Timer=3
+
+[Hit]
+Type = Bounce
+BounceCoeff=0.8
+
+[PlayerHit]
+Type = Injure
+Damage = 11
+
+[Time]
+Type = Explode
+Damage = 4
+Shake = 1

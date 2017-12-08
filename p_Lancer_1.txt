@@ -1,0 +1,20 @@
+[General]
+Type = PRJ_IMAGE
+AngleImages=16
+Gravity=0
+Image=blaster.png
+Timer=4
+UseAngle=true
+
+[Hit]
+Type = Bounce
+#BounceCoeff=0.995
+BounceCoeff = 1
+
+[PlayerHit]
+Type = Injure
+Damage = 11
+
+[Time]
+Type = Explode
+Damage=2

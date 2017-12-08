@@ -1,0 +1,14 @@
+[General]
+Type = PRJ_PIXEL
+Colour1=30,136,215
+Colour2=95,174,233
+Gravity=0
+Timer=0.1
+
+[Hit]
+Type = Explode
+Damage=-1
+
+[Time]
+Type = Explode
+Damage = -1

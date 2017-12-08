@@ -1,0 +1,20 @@
+[General]
+Type = PRJ_IMAGE
+AnimRate=3
+AnimType = ANI_LOOP
+Animating=true
+Gravity=100
+Image=protopet3.png
+Timer=6
+
+[Hit]
+Type = Bounce
+BounceCoeff = 1
+
+[PlayerHit]
+Type = Injure
+Damage = 6
+
+[Time]
+Type = Explode
+Damage = -1

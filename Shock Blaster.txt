@@ -1,0 +1,17 @@
+[General]
+Drain=34
+LaserSight=false
+Name=Shock Blaster
+ROF=900
+Recharge=4
+Recoil=75
+Sound=shotgun.wav
+
+[Projectile]
+Amount=30
+Angle=0
+Projectile=p_Shock Blaster_1.txt
+Speed=200
+SpeedVar=20
+Spread=6
+Useangle=false

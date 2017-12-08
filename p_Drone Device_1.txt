@@ -1,0 +1,26 @@
+# Drones - dummy
+
+[General]
+Type = PRJ_IMAGE
+Gravity = 0
+Image = drone.png
+Timer = 1
+Dampening = 0.9
+
+[Hit]
+Type = Bounce
+BounceCoeff=0
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[PlayerHit]
+Type = Nothing
+
+[Projectile]
+Amount = 1
+Angle = 0
+Projectile = p_Drone Device_2.txt
+Speed = 0

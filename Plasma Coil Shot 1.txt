@@ -1,0 +1,24 @@
+[General]
+Type = PRJ_IMAGE
+Gravity = 0
+Image = plasmacoil.png
+Timer = 0.5
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.9
+
+[PlayerHit]
+Type = Injure
+Damage = 40
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+UseAngle = True
+Speed = 70
+Projectile = Plasma Coil Shot 2.txt

@@ -1,0 +1,16 @@
+[General]
+Drain=101
+LaserSight=false
+Name=Sonic Summoner
+ROF=1000
+Recharge=2
+Recoil=10
+Sound=chat.wav
+[Projectile]
+Amount=1
+Angle=0
+Projectile=p_Sonic Summoner_1.txt
+Speed=240
+SpeedVar=40
+Spread=0
+Useangle=false

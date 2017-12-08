@@ -1,0 +1,19 @@
+[General]
+Type = PRJ_PIXEL
+Colour1=240,223,11
+Colour2=251,196,113
+Gravity=0
+Timer=0.3
+
+[Hit]
+Type = Explode
+Damage = 1
+Shake = 3
+
+[PlayerHit]
+Type = Injure
+Damage = 2
+
+[Time]
+Type = Explode
+Damage = 1

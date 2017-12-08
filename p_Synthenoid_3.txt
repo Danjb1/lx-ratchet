@@ -1,0 +1,14 @@
+[General]
+Type = PRJ_PIXEL
+Colour1 = 232,116,0
+Gravity = 0
+
+[Hit]
+Type = Explode
+Damage = 3
+Shake = 3
+Sound = explodesmall.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 51

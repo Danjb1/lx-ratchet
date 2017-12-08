@@ -1,0 +1,15 @@
+[General]
+Type = PRJ_IMAGE
+Gravity=250
+Image=bomb.png
+
+[Hit]
+Type = Explode
+Damage = 20
+Shake = 4
+Sound=explodesmall.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 21
+Sound=explodesmall.wav

@@ -1,0 +1,15 @@
+[General]
+Drain = 5
+Name = RYNO 2
+ROF = 150
+Recharge = 1
+Recoil = 3
+Sound = ryno2.wav
+
+[Projectile]
+Amount = 1
+Angle = 0
+Projectile = p_RYNO 2_1.txt
+Speed = 170
+Spread = 2
+Useangle = false

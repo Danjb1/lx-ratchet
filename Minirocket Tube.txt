@@ -1,0 +1,17 @@
+[General]
+Drain = 11
+LaserSight = false
+Name = Minirocket Tube
+ROF = 300
+Recharge = 5
+Recoil = 10
+Sound = bazooka.wav
+
+[Projectile]
+Amount = 1
+Angle = 0
+Projectile = p_Minirocket Tube_1.txt
+Speed = 120
+SpeedVar = 0
+Spread = 0
+Useangle = false

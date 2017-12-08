@@ -1,0 +1,25 @@
+# A projectile that goes through the greenball
+# in order to give out the next one (P7)
+
+[General]
+Type = PRJ_IMAGE
+Image = nothing.png
+Gravity = 0
+Timer = 0.15
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Projectile = p_Miniturret_7.txt
+Speed = 100
+Useangle = true

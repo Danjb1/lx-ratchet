@@ -1,0 +1,29 @@
+[General]
+Type = PRJ_IMAGE
+Gravity=30
+Image=chopper.png
+RotIncrement=90
+RotSpeed=1000
+Rotating=true
+Timer=3
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Bounce
+BounceCoeff=1
+
+[Time]
+Type = Explode
+Damage=1
+
+[PlayerHit]
+Type = Injure
+Damage = 21
+
+[ProjectileTrail]
+Amount = 1
+Delay = 50
+Projectile = p_Disc Blade Gun_2.txt
+Speed = 0
+SpeedVar = 0
+Spread = 360

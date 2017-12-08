@@ -1,0 +1,12 @@
+[General]
+Name = Shield Charger
+Drain = 0
+ROF = 450
+Recharge = 0
+Recoil = -5
+Sound = shield.wav
+
+[Projectile]
+Amount = 1
+Speed = -200
+Projectile = Shield Charger Dummy.txt

@@ -1,0 +1,34 @@
+[General]
+Type = PRJ_IMAGE
+AngleImages=18
+Gravity=0
+Image=devastator.png
+UseAngle=true
+Dampening = 1.05
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Explode
+Damage = 20
+Projectiles=True
+Shake = 5
+Sound=exp2.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 21
+Projectiles=True
+
+[Projectile]
+Amount=20
+Angle=0
+Projectile=p_Devastator_2.txt
+Speed=72
+SpeedVar=50
+Spread=360
+
+[ProjectileTrail]
+Amount=1
+Delay=20
+Projectile=p_Devastator_3.txt
+Speed=0

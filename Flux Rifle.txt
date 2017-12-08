@@ -1,0 +1,16 @@
+[General]
+Drain=101
+LaserSight=true
+Name=Flux Rifle
+ROF=500
+Recharge=2
+Recoil=30
+Sound=rifle.wav
+[Projectile]
+Amount=1
+Angle=0
+Projectile=p_Flux Rifle_1.txt
+Speed=300
+SpeedVar=0
+Spread=0
+Useangle=false

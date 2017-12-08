@@ -1,0 +1,20 @@
+[General]
+Type = PRJ_IMAGE
+Gravity=150
+Image=bouncer2.png
+RotIncrement=90
+RotSpeed=400
+Rotating=true
+Timer=2
+
+[Hit]
+Type = Bounce
+BounceCoeff=0.7
+
+[PlayerHit]
+Type = Injure
+Damage = 21
+
+[Time]
+Type = Explode
+Damage = 20

@@ -1,0 +1,29 @@
+[General]
+Type = PRJ_IMAGE
+Image = bouncer1.png
+RotIncrement = 45
+RotSpeed = 300
+Rotating = true
+Timer = 1.5
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.5
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 20
+Projectiles = True
+Shake = 3
+
+[Projectile]
+Amount = 20
+Angle = 0
+Projectile = Bouncelets.txt
+Speed = 80
+SpeedVar = 0
+Spread = 360
+Useangle = false

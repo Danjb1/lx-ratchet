@@ -1,0 +1,14 @@
+[General]
+Type  =  PRJ_IMAGE
+UseAngle = True
+AngleImages = 18
+Gravity = 0
+Image = raygun.png
+
+[Hit]
+Type = Explode
+Damage = 2
+
+[PlayerHit]
+Type = Injure
+Damage = 34

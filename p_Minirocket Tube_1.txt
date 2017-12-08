@@ -1,0 +1,17 @@
+[General]
+Type = PRJ_IMAGE
+AngleImages = 18
+Gravity = 0
+Image = minirocket.png
+UseAngle = true
+
+[Hit]
+Type = Explode
+Damage = 18
+Shake = 4
+Sound = explodemedium.wav
+
+[PlayerHit]
+Type = Explode
+Damage = 18
+Sound = explodemedium.wav

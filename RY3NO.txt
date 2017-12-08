@@ -1,0 +1,16 @@
+[General]
+Drain=101
+LaserSight=false
+Name=RY3NO
+ROF=1200
+Recharge=0.5
+Recoil=50
+Sound=ryno.wav
+[Projectile]
+Amount=120
+Angle=0
+Projectile=p_RY3NO_1.txt
+Speed=180
+SpeedVar=0
+Spread=90
+Useangle=false

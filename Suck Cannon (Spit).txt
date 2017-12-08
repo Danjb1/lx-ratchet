@@ -1,0 +1,16 @@
+[General]
+Drain = 11
+Name = Suck Cannon (Spit)
+ROF = 900
+Recharge = 3
+Recoil = 0
+Sound = cannon.wav
+
+[Projectile]
+Amount = 1
+Angle = 0
+Projectile = Suck Cannon (Spit) Shot.txt
+Speed = 120
+SpeedVar = 20
+Spread = 0
+Useangle = false

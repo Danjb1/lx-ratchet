@@ -1,0 +1,29 @@
+# The main turret. Gives out invisible P6 projectiles in all directions.
+
+[General]
+Type = PRJ_IMAGE
+AnimRate = 6
+AnimType = ANI_LOOP
+Animating = true
+Dampening = 0
+Gravity = 0
+Image = miniturret.png
+Timer = 8
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = 20
+
+[ProjectileTrail]
+Amount = 100
+Delay = 300
+Projectile = p_Miniturret_6.txt
+Speed = 100
+Spread = 360

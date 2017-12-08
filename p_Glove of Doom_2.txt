@@ -1,0 +1,20 @@
+[General]
+Type = PRJ_IMAGE
+AnimRate = 2
+AnimType = true
+Animating = true
+Gravity = 85
+Image = gloveofdoom.png
+Timer = 12
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.95
+
+[PlayerHit]
+Type = Injure
+Damage = 45
+
+[Time]
+Type = Explode
+Damage = 6

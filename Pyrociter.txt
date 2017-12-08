@@ -1,0 +1,16 @@
+[General]
+Drain=1
+LaserSight=false
+Name=Pyrociter
+ROF=1
+Recharge=2
+Recoil=0
+Sound=pyrociter.wav
+[Projectile]
+Amount=2
+Angle=0
+Projectile=p_Pyrociter_1.txt
+Speed=100
+SpeedVar=0
+Spread=5
+Useangle=false

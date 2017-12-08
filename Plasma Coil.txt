@@ -1,0 +1,17 @@
+[General]
+Drain = 34
+LaserSight = false
+Name = Plasma Coil
+ROF = 800
+Recharge = 4
+Recoil = 80
+Sound = plasmacoil.wav
+
+[Projectile]
+Amount = 1
+Angle = 0
+Projectile = Plasma Coil Shot 1.txt
+Speed = 70
+SpeedVar = 0
+Spread = 0
+Useangle = false

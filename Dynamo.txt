@@ -1,0 +1,13 @@
+[General]
+Name = Dynamo
+Drain = 0
+ROF = 1000
+Recharge = 6
+Recoil = 0
+Sound = dynamo.wav
+
+[Projectile]
+Amount = 1
+Speed = 130
+Spread = 0
+Projectile = Dynamo Shot.txt

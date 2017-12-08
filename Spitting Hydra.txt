@@ -1,0 +1,17 @@
+[General]
+Drain=4
+LaserSight=false
+Name=Spitting Hydra
+ROF=1
+Recharge=4
+Recoil=1
+Sound=spittinghydra.wav
+
+[Projectile]
+Amount=2
+Angle=0
+Projectile=p_Spitting Hydra_1.txt
+Speed=500
+SpeedVar=0
+Spread=5
+Useangle=false

@@ -1,0 +1,14 @@
+[General]
+Type = PRJ_IMAGE
+Gravity=0
+Image=clankzap.png
+
+[Hit]
+Type = Explode
+Damage=1
+Shake = 2
+Sound=zap.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 3

@@ -1,0 +1,15 @@
+[General]
+Name = Protopet
+Drain = 34
+ROF = 200
+Recharge = 0.8
+Recoil = 3
+Sound = protopet.wav
+
+[Projectile]
+Amount = 1
+Angle = 0
+Projectile = Protopet Delay.txt
+Speed = 55
+Spread = 1
+Useangle = false

@@ -1,0 +1,22 @@
+[General]
+Type = PRJ_IMAGE
+Gravity = 0
+Image = nothing.png
+Timer = 4
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Explode
+Damage = 6
+Shake = 4
+
+[PlayerHit]
+Type = Injure
+Damage = 21
+
+[ProjectileTrail]
+Amount = 1
+Delay = 100
+Projectile = p_Nitro Launcher_3.txt
+Speed = 0
+Spread = 360

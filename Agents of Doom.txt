@@ -1,0 +1,17 @@
+[General]
+Drain=101
+LaserSight=false
+Name=Agents of Doom
+ROF=500
+Recharge=2
+Recoil=0
+Sound=throw.wav
+
+[Projectile]
+Amount=1
+Angle=90
+Speed=110
+SpeedVar=30
+Spread=0
+Useangle=false
+Projectile = Agents of Doom Ball.txt

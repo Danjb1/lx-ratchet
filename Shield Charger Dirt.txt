@@ -1,0 +1,15 @@
+[General]
+Type = PRJ_IMAGE
+Gravity = 0
+Image = nothing.png
+Timer = 0.013
+
+[Hit]
+Type = Explode
+Damage = -1
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = GreenDirt

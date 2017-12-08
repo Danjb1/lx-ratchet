@@ -1,0 +1,23 @@
+# Dummy particle that waits 3 secs then releases a carve particle
+
+[General]
+Type = PRJ_IMAGE
+Gravity = 0
+Image = Nothing.png
+Timer = 3
+
+[Hit]
+Type = Nothing
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 0
+Projectile = Dynamo Carve.txt

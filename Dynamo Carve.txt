@@ -1,0 +1,18 @@
+# Carve particle that destroys the greenball
+
+[General]
+Type = PRJ_IMAGE
+Gravity = 0
+Image = Nothing.png
+Timer = 0.5
+
+[Hit]
+Type = Carve
+Damage = 10
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1

@@ -1,0 +1,28 @@
+[General]
+Type = PRJ_IMAGE
+UseAngle = true
+AngleImages = 18
+Gravity = 0
+Image = annihilator.png
+
+[Hit]
+Type = Explode
+Damage = 5
+Projectiles = True
+Shake = 5
+Sound = explodemedium.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 21
+Projectiles = True
+Sound = explodemedium.wav
+
+[Projectile]
+Amount = 4
+UseAngle = True
+Angle = 180
+Speed = 30
+SpeedVar = 15
+Spread = 60
+Projectile= Annihilator Shrapnel Dummy.txt

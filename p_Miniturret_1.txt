@@ -1,0 +1,24 @@
+# Original thrown projectile (P1) - explodes into P2
+
+[General]
+Type = PRJ_IMAGE
+Gravity = 200
+Image = miniturretcreate.png
+Timer = 0.7
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Projectile = p_Miniturret_2.txt
+Speed = 0

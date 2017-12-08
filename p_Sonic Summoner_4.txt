@@ -1,0 +1,17 @@
+# Sonic Summoner Shot
+
+[General]
+Type = PRJ_IMAGE
+AngleImages = 18
+Gravity = 0
+Image = blaster.png
+UseAngle = true
+
+[Hit]
+Type = Explode
+Damage = 1
+Shake = 1
+
+[PlayerHit]
+Type = Injure
+Damage = 5

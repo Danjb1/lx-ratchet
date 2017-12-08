@@ -1,0 +1,30 @@
+[General]
+Type = PRJ_IMAGE
+Gravity=0
+Image=pwhip.png
+RotIncrement=90
+RotSpeed=1300
+Rotating=true
+Dampening = 0.98
+Timer=0.8
+
+[Hit]
+Type = Explode
+Damage = 3
+Shake = 2
+
+[PlayerHit]
+Type = Injure
+Damage = 40
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Speed = 12
+UseAngle = True
+Angle = 180
+Projectile = Plasma Whip (Throw) Return.txt

@@ -1,0 +1,22 @@
+[General]
+Type = PRJ_IMAGE
+AngleImages=0
+AnimRate=2
+AnimType=ANI_LOOP
+Animating=true
+Gravity=80
+Image=sheep.png
+Timer=10
+
+[Hit]
+Type = Bounce
+BounceCoeff=1
+
+[PlayerHit]
+Type = Injure
+Damage = 11
+
+[Time]
+Type = Explode
+Damage=6
+Shake=1

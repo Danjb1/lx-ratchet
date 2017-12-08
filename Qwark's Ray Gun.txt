@@ -1,0 +1,16 @@
+[General]
+Drain = 8
+Name = Qwark's Ray Gun
+ROF = 750
+Recharge = 6
+Recoil = 2
+Sound = blaster.wav
+
+[Projectile]
+Amount = 1
+Angle = 0
+Projectile = p_Qwark's Ray Gun_1.txt
+Speed = 160
+SpeedVar = 40
+Spread = 1
+Useangle = false

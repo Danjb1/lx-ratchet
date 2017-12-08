@@ -1,0 +1,32 @@
+# Lasts a split second, leaving behind P3 and P5
+
+[General]
+Type  =  PRJ_IMAGE
+Dampening = 0
+Gravity = 0
+Image = miniturretcreate.png
+Timer = 0.01
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0
+
+[PlayerHit]
+Type = Nothing
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 1
+Projectile = p_Miniturret_3.txt
+Speed = 0
+
+[ProjectileTrail]
+Amount = 1
+Delay = 9999
+Projectile = p_Miniturret_5.txt
+Speed = 0

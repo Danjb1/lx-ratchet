@@ -1,0 +1,28 @@
+[General]
+Type = PRJ_IMAGE
+AngleImages=18
+AnimRate=0
+AnimType=true
+Animating=false
+Gravity=0
+Image=morpher.png
+Timer=0.6
+UseAngle=true
+
+[Hit]
+Type = Explode
+Damage=-1
+
+[PlayerHit]
+Type = Injure
+Damage = 15
+Projectiles = True
+
+[Projectile]
+Amount=1
+Angle=0
+Projectile=p_Quack-o-Ray_2.txt
+Speed=80
+SpeedVar=20
+Spread=360
+Useangle=true

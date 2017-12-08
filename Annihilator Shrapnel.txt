@@ -1,0 +1,20 @@
+[General]
+Type = PRJ_IMAGE
+Gravity=100
+Image=mine2.png
+RotIncrement=90
+RotSpeed=500
+Rotating=true
+Timer=3
+
+[Hit]
+Type = Bounce
+BounceCoeff=0.4
+
+[PlayerHit]
+Type = Explode
+Damage = 9
+
+[Time]
+Type = Explode
+Damage = 5

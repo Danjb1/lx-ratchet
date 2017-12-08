@@ -1,0 +1,21 @@
+[General]
+Type = PRJ_IMAGE
+AnimRate = 2
+AnimType = ANI_LOOP
+Animating = true
+Image = mine3.png
+Timer = 2
+Gravity = 0
+Dampening = 0.95
+
+[Hit]
+Type = Bounce
+BounceCoEff = 1
+
+[PlayerHit]
+Type = Injure
+Damage = 71
+
+[Time]
+Type = Explode
+Damage = 15

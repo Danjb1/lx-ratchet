@@ -1,0 +1,17 @@
+[General]
+Drain=11
+LaserSight=false
+Name=Plasma Whip (Swipe)
+ROF=500
+Recharge=6
+Recoil=0
+Sound=swipe.wav
+
+[Projectile]
+Amount=1
+Angle=0
+Projectile=p_Plasma Whip (Swipe)_1.txt
+Speed=30
+SpeedVar=10
+Spread=0
+Useangle=false

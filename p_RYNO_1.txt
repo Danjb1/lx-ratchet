@@ -1,0 +1,15 @@
+[General]
+Type = PRJ_IMAGE
+AngleImages=18
+UseAngle = True
+Gravity=0
+Image=RYNO.png
+
+[Hit]
+Type = Explode
+Damage = 10
+Shake = 4
+
+[PlayerHit]
+Type = Injure
+Damage = 40

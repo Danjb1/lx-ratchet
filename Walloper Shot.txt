@@ -1,0 +1,21 @@
+[General]
+Type = PRJ_IMAGE
+AngleImages = 10
+Gravity = 0
+Image = walloper.png
+Timer = 0.1
+UseAngle = true
+
+[Hit]
+Type = Explode
+Damage = 5
+Shake = 4
+Sound = bump.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 35
+
+[Time]
+Type = Explode
+Damage = -1

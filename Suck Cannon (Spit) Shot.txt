@@ -1,0 +1,24 @@
+[General]
+Type = PRJ_IMAGE
+Gravity = 140
+Image = suckcannonspit.png
+RotIncrement = 90
+RotSpeed = 500
+Rotating = true
+
+[Hit]
+Type = Explode
+Damage = 10
+Shake = 3
+Sound = explodesmall.wav
+Projectiles = True
+
+[PlayerHit]
+Type = Injure
+Damage = 26
+
+[Projectile]
+Amount = 10
+Spread = 360
+Speed = 90
+Projectile = Suck Cannon (Spit) Delay.txt

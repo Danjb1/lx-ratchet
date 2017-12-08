@@ -1,0 +1,16 @@
+[General]
+Type = PRJ_IMAGE
+AngleImages=18
+Gravity=0
+Image=blaster.png
+UseAngle=true
+
+[Hit]
+Type = Explode
+Damage = 2
+Shake = 1
+Sound=explodesmall.wav
+
+[PlayerHit]
+Type = Injure
+Damage = 11

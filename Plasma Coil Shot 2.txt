@@ -1,0 +1,26 @@
+[General]
+Type = PRJ_IMAGE
+Gravity = 0
+Image = plasmacoil.png
+Timer = 4
+Trail = TRL_PROJECTILE
+
+[Hit]
+Type = Bounce
+BounceCoeff = 0.9
+
+[PlayerHit]
+Type = Injure
+Damage = 25
+
+[Time]
+Type = Explode
+Damage = 1
+
+[ProjectileTrail]
+Amount = 12
+Delay = 250
+Projectile = Plasma Coil Zap.txt
+Speed = 200
+SpeedVar = 50
+Spread = 360

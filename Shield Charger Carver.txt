@@ -1,0 +1,16 @@
+[General]
+Type = PRJ_IMAGE
+Image=nothing.png
+Gravity=0
+Timer=0.025
+
+[Hit]
+Type = Carve
+Damage = 15
+
+[Time]
+Type = Explode
+Damage=-1
+
+[PlayerHit]
+Type = Nothing

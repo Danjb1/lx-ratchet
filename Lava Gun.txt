@@ -1,0 +1,12 @@
+[General]
+Name=Lava Gun
+Type = WPN_BEAM
+Drain=2
+ROF=0.5
+Recharge=5
+
+[Beam]
+Colour=240,120,0
+Damage=2
+Length=80
+PlayerDamage=1

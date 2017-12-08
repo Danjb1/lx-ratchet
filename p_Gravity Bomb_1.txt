@@ -1,0 +1,29 @@
+[General]
+Type = PRJ_IMAGE
+Gravity = 370
+Image = gravitybomb.png
+Timer = 0.7
+
+[Hit]
+Type = Explode
+Damage = -1
+Projectiles = True
+Shake = 5
+Sound = explodebig.wav
+
+[Time]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[PlayerHit]
+Type = Explode
+Damage = -1
+Projectiles = True
+
+[Projectile]
+Amount = 30
+Projectile = p_Gravity Bomb_2.txt
+Speed = 30
+SpeedVar = 10
+Spread = 360

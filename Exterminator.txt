@@ -1,0 +1,17 @@
+[General]
+Drain=1
+LaserSight=false
+Name=Exterminator
+ROF=1
+Recharge=3
+Recoil=0
+Sound=pyrociter.wav
+
+[Projectile]
+Amount=1
+Angle=0
+Projectile = Exterminator Gas.txt
+Speed=200
+SpeedVar=50
+Spread=4
+Useangle=false

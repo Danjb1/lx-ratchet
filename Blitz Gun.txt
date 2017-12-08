@@ -1,0 +1,17 @@
+[General]
+Drain = 21
+LaserSight = false
+Name = Blitz Gun
+ROF = 900
+Recharge = 4
+Recoil = 75
+Sound = shotgun.wav
+
+[Projectile]
+Amount = 30
+Angle = 0
+Projectile = Blitz Gun Shot.txt
+Speed = 230
+SpeedVar = 20
+Spread = 6
+Useangle = false

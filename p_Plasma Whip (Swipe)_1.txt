@@ -1,0 +1,19 @@
+[General]
+Type = PRJ_IMAGE
+AngleImages=18
+Gravity=0
+Image=pwhip2.png
+Timer=0.1
+UseAngle=true
+
+[Hit]
+Type = Explode
+Damage=-1
+
+[PlayerHit]
+Type = Injure
+Damage = 51
+
+[Time]
+Type = Explode
+Damage=-1
